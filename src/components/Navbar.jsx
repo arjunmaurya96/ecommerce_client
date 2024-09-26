@@ -68,7 +68,7 @@ const Navbar = () => {
                   }
 
                   <Link to={'/profile'} className='btn btn-info mx-3'>profile </Link>
-                  <button className='btn btn-danger mx-3'  onClick={() => { logout(); }}>logout</button>
+                  <Link className='btn btn-danger mx-3'  onClick={() => { logout() }}>logout</Link>
                 </>
               )
             }

@@ -3,10 +3,13 @@ import AppContext from './AppContext'
 import axios from 'axios'
 import { ToastContainer, toast, Bounce } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+// import { useNavigate } from 'react-router-dom';
 
 
 
 const AppState = (props) => {
+
+    // const navigate = useNavigate()
     const url = "http://localhost:1000/api";
     const [products, setProducts] = useState([])
     const [token, setToken] = useState([]);
