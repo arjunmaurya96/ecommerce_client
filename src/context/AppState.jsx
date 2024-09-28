@@ -12,7 +12,7 @@ const AppState = (props) => {
     // const navigate = useNavigate()
     // const url = "http://localhost:1000/api";
 
-    const url = "https://ecommerce-api-losy.onrender.com/api";
+    const url = "https://ecommerce-api-hf9u.onrender.com/api";
     const [products, setProducts] = useState([])
     const [token, setToken] = useState([]);
     const [isAuthenticate, setIsAuthenticated] = useState(false);
